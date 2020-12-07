@@ -3,7 +3,7 @@ package events;
 import characters.*;
 import java.util.ArrayList;
 
-public class Physic 
+public class Physics 
 {	
 	public boolean Collision(Bullet b,ArrayList<Zombies> z)
 	{

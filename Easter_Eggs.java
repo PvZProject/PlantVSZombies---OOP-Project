@@ -32,7 +32,7 @@ public class Easter_Eggs {
 				correction = true;
 				sky.storedSun += 200;
 				break;
-			}
+			} 
 			
 			else continue;
 		}

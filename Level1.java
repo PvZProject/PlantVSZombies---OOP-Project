@@ -12,7 +12,7 @@ public class Level1 extends Level {
 	state.sky.storedSun = 500;
 	state.planetsInTheBar[0] = new PlantInPlantBar(1, 0);
 	state.planetsInTheBar[1] = new PlantInPlantBar(2, 1);
-	EasterEgg.checkEasterEggs();
+	
     }
 
     public void update() {

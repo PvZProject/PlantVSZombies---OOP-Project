@@ -17,7 +17,7 @@ public class Level2 extends Level {
         state.planetsInTheBar[0] = new PlantInPlantBar(1, 0);
         state.planetsInTheBar[1] = new PlantInPlantBar(2, 1);
         state.planetsInTheBar[2] = new PlantInPlantBar(4, 2);
-        EasterEgg.checkEasterEggs();
+        
     }
 
     public void update() {

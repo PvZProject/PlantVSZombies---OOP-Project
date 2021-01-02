@@ -6,17 +6,18 @@ import javax.sound.sampled.Clip;
 
 public class Level2 extends Level {
 
+    private Easter_Eggs EasterEgg;
     private boolean bool = true, firstSound = true;
     public static Clip clpMusicStart;
 
     public Level2(GameState state) {
-
+        
         super(state);
         state.sky.storedSun = 500;
         state.planetsInTheBar[0] = new PlantInPlantBar(1, 0);
         state.planetsInTheBar[1] = new PlantInPlantBar(2, 1);
         state.planetsInTheBar[2] = new PlantInPlantBar(4, 2);
-
+        EasterEgg.checkEasterEggs();
     }
 
     public void update() {

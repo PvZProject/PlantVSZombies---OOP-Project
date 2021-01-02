@@ -4,13 +4,15 @@ import sounds.Sound;
 
 public class Level1 extends Level {
 
+    private Easter_Eggs EasterEgg;
+	
     public Level1(GameState state) {
 
 	super(state);
 	state.sky.storedSun = 500;
 	state.planetsInTheBar[0] = new PlantInPlantBar(1, 0);
 	state.planetsInTheBar[1] = new PlantInPlantBar(2, 1);
-
+	EasterEgg.checkEasterEggs();
     }
 
     public void update() {

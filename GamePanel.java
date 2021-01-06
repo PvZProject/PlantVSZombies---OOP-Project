@@ -21,6 +21,7 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
 
     Image normalZombieImage;
     Image coneHeadZombieImage;
+    Image bucketHeadZombieImage;
     Collider[] colliders;
     
     ArrayList<ArrayList<Zombie>> laneZombies;
@@ -62,8 +63,9 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
         peaImage = new ImageIcon(this.getClass().getResource("images/pea.png")).getImage();
         freezePeaImage = new ImageIcon(this.getClass().getResource("images/freezepea.png")).getImage();
 
-        normalZombieImage = new ImageIcon(this.getClass().getResource("images/zombies/michalejackson.gif")).getImage();
-        coneHeadZombieImage = new ImageIcon(this.getClass().getResource("images/zombies/zombie2.png")).getImage();
+        normalZombieImage = new ImageIcon(this.getClass().getResource("images/zombies/NormalZombie.gif")).getImage();
+        coneHeadZombieImage = new ImageIcon(this.getClass().getResource("images/zombies/ConeHeadZombie.gif")).getImage();
+        bucketHeadZombieImage = new ImageIcon(this.getClass().getResource("images/zombies/BucketHeadZombie.gif")).getImage();
 
         laneZombies = new ArrayList<>();
         laneZombies.add(new ArrayList<>()); //line 1
@@ -177,6 +179,8 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
                     g.drawImage(normalZombieImage,z.posX,109+(i*120),null);
                 }else if(z instanceof ConeHeadZombie){
                     g.drawImage(coneHeadZombieImage,z.posX,109+(i*120),null);
+                }else if(z instanceof BucketHeadZombie){
+                    g.drawImage(bucketHeadZombieImage,z.posX, 109+(i*120),null);
                 }
             }
 

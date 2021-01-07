@@ -28,13 +28,13 @@ Object-Oriented Programming
 
 I. Introduction:
 Nowadays, technology is growing rapidly and the Software Technology industry also develops. Therefore, the classic Procedural-Oriented Programming method is more and more become out of date and cannot be responded completely for all requirements. That leads the invention of a new method follow the principles Alan-kay named “Object-Oriented Programming” to overcome those cases. 
-
+	
 This project was created based on Object-Oriented Programming method by Java language. Therefore, this has solved some problems that was occur while building by common Procedural-Oriented Programming.
 •	The code is clear, concise and easy to understand.
 •	The project is a unified logic system by many related-classes combined together.
 •	Each class has many Methods which take on different behaviors of own class.
 •	The ability of reusing the resources. 
-The purpose of this project is to design a basic game that was build on foundation of object-oriented. Our group decided to modify a game named “Plants vs Zombies” follow the principle of the method. This game will show clearly the object-oriented property, the combination of classes, between class and object. Plants vs Zombies require player to use the plant which can shoot out the seeds to kill the zombie and protect the house. 
+The purpose of this project is to design a basic game that was built on foundation of object-oriented. Our group decided to modify a game named “Plants vs Zombies” follow the principle of the method. This game will show clearly the object-oriented property, the combination of classes, between class and object. Plants vs Zombies re	quire player to use the plant which can shoot out the seeds to kill the zombie and protect the house. 
 
 
 
@@ -101,14 +101,23 @@ VI. Class Diagram:
  
 
 VII. Result:
-Based on principle of OOP Method, our project has been completely with basic rules and properties of Plants vs Zombies game. The combination of classes and objects in system is relative logically. We also do successfully the display to connect the user with program, it can be control by other input devices like: mouse, keyboard. Moreover, there are some new features out of the basic rule is the sound while playing, alongside with Graphic User Interface to make the user interface is more attractive.
+Based on principle of OOP Method, our project has been completely with basic rules and properties of Plants vs Zombies game. The combination of classes and objects in system is relative logically. We also do successfully the display to connect the user with program, it can be control by other input devices like: mouse, keyboard. Moreover, there are some new features out of the basic rule is the sound while playing, alongside with Graphic User Interface to make the user interface is more attractive. 
 
-VIII. Limited:
+VIII. Limitations:
 Beside the success of build the game with basic rules, our project still has many cases that cannot be solved: 
 - Do not have Save Game, Save Score, input the Name for the user.
  - This game contains 3 kinds of plants: Sun flower, Pea shooter, Freeze Pea Shooter & 3 kinds of Zombies: Normal Zombie, Cone Head Zombies & Bucket Head Zombies.
 - There are only 2 level. We have not yet built more upgrade levels.
 
-IX. Conclusion:
-Plants vs Zombies Game that was built by object – oriented method is easier and logically than traditional method. This shows clearly polymorphism, inheritance, encapsulation, data abstraction of OOP and the relationship between Plant, Pea, Zombie alongside with their children classes. Besides that, learning more knowledge out of the limited of this course is one of the important things to do while performing this project.
+IX. Future improvements: 
+Add new kind of Zombies, Plants
+Add new Levels
+Add shovel to remove plants
+Add Lawn-mowers
+Make it be able to save score, to refund sun about 50% when removing by Shovel.
+Add new button: Pause
+Improve quality of Graphic (GUI).
 
+
+X. Conclusion:
+Plants vs Zombies Game that was built by object – oriented method is easier and logically than traditional method. This shows clearly polymorphism, inheritance, encapsulation, data abstraction of OOP and the relationship between Plant, Pea, Zombie alongside with their children classes. Besides that, learning more knowledge out of the limited of this course is one of the important things to do while performing this project.

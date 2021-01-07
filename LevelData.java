@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 public class LevelData {
     static String Lvl = "1";
-   static String [][] Level = {{"NormalZombie","ConeHeadZombie"},{"NormalZombie","ConeHeadZombie", "BucketHeadZombie"}};
-   static int [][][] LevelValue = {{{0, 49}, {50, 99}},{{0, 33},{34, 67}, {68, 99}}} ;
+   static String [][] Level = {{"NormalZombie"},{"NormalZombie","ConeHeadZombie"}};
+   static int [][][] LevelValue = {{{0, 99}},{{0, 49},{50, 99}}};
    public LevelData() {
        try {
            File f = new File("Level.vbhv");
